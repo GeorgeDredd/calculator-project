@@ -28,22 +28,6 @@ body {
     
 }
   
-  /* .calculator {
-    background: black;
-    border-radius: 50px;
-    color: white;
-    height: 1218px;
-    padding: 20px;
-    position: relative;
-    width: 563px;
-  }
-  
-  .top-container {
-    display: flex;
-    height: 250px;
-    justify-content: space-between;
-    padding: 0 20px;
-  } */
   
   .result {
     font-size: 50px;
