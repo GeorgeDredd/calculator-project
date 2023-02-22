@@ -26,17 +26,15 @@ body {
     background-color: black;
     color: white;
     
-}
-  
+}  
   
   .result {
-    font-size: 50px;
+    font-size: 40px;
     font-weight: lighter;
     height: 50px;
     margin-bottom: 25px;
     margin-right: 20px;
     text-align: right;
-   
   }
   
 
@@ -45,7 +43,6 @@ body {
     display: flex;
     align-items: flex-end;
     justify-content: flex-end;
-    /* border: 1px solid gray; */
 }
 
   .btn-container {
@@ -63,32 +60,24 @@ body {
     cursor: pointer;
     display: flex;
     font-size: 25px;
-    /* height: 110px; */
     justify-content: center;
     transition: filter .3s;
-    /* width: 110px; */
   }
   
-  .btn.function {
+  .btn.func{
     color: black;
     background: #a5a5a5;
   }
   
-  .btn.operator {
+  .btn.oper {
     background: #f1a33c;
   }
   
-  .btn.number-0 {
+  .btn.numb-0 {
     border-radius: 55px;
     grid-column: 1 / span 2;
     justify-content: flex-start;
     padding-left: 43px;
-    /* width: 250px; */
   }
   
-  .btn:active,
-  .btn:focus {
-    filter: brightness(120%);
-  }
-
   
