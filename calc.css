@@ -25,6 +25,7 @@ body {
     padding: 20px;
     background-color: black;
     color: white;
+    overflow: hidden;
     
 }  
   
@@ -61,7 +62,11 @@ body {
     display: flex;
     font-size: 25px;
     justify-content: center;
-    transition: filter .3s;
+    transition: .5s ease;
+  }
+
+  .btn.hover {
+    transform: translateY(2px);
   }
   
   .btn.func{
